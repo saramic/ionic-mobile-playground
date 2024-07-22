@@ -1,0 +1,7 @@
+{
+  "name": "ionic-mobile-playground",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
