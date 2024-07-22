@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-icon slot="start" name="home-outline" [routerLink]="['/']"></ion-icon>
+    <ion-title>ten-thirty-five</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">ten-thirty-five</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div id="container">
+    <div>
+      <div>
+        10:35
+      </div>
+      <ion-icon name="time-outline"></ion-icon>
+      <img src="assets/world.svg">
+      <div>
+        {{ hereAndNow }}
+      </div>
+    </div>
+  </div>
+</ion-content>
